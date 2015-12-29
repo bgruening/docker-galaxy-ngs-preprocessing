@@ -1,6 +1,4 @@
 # Galaxy - RNA-Seq
-#
-# VERSION       0.1
 
 FROM bgruening/galaxy-stable:dev
 
@@ -11,8 +9,8 @@ ENV GALAXY_CONFIG_BRAND RNA-Seq
 RUN add-tool-shed --url 'http://testtoolshed.g2.bx.psu.edu/' --name 'Test Tool Shed'
 
 # Install deepTools
-ADD ngs_preprocessing.yml $GALAXY_HOME/tools.yaml
-RUN install-tools $GALAXY_HOME/tools.yaml
+ADD ngs_preprocessing.yml $GALAXY_ROOT/tools.yaml
+RUN install-tools $GALAXY_ROOT/tools.yaml
 
 
 # Mark folders as imported from the host.

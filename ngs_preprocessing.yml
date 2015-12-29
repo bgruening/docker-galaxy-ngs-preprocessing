@@ -51,7 +51,7 @@ tools:
 
 - name: fastqc
   owner: devteam
-  tool_panel_section_label: Quality Control
+  tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - '8c650f7f76e9'  # v0.62
@@ -64,4 +64,43 @@ tools:
   revisions:
   - ca29c55c78e7
   - 09a7281d24c5
+
+- name: data_manager_bowtie2_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  revisions:
+  - e87aeff2cf88
+
+- name: data_manager_fetch_genome_dbkeys_all_fasta
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  revisions:
+  - 776bb1b478a0
+
+- name: data_manager_bwa_mem_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  revisions:
+  - cb0147ade868
+
+- name: data_manager_bwa_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  revisions:
+  - cc5ae94acf01
+
+- name: data_manager_bwa_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  revisions:
+  - cc5ae94acf01
+
+- name: suite_deeptools
+  owner: bgruening
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+  revisions:
+  - 63b709f941b6
+
+
+
 
