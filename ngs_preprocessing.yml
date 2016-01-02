@@ -89,12 +89,6 @@ tools:
   revisions:
   - cc5ae94acf01
 
-- name: data_manager_bwa_index_builder
-  owner: devteam
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  revisions:
-  - cc5ae94acf01
-
 - name: suite_deeptools
   owner: bgruening
   tool_shed_url: https://testtoolshed.g2.bx.psu.edu
