@@ -54,8 +54,9 @@ tools:
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
-  - '8c650f7f76e9'  # v0.62
-  - 'd2cf2c0c8a11'  # v0.63
+  - 'e28c965eeed4'
+  - 'd2cf2c0c8a11'
+  - '2d094334f61e'
 
 - name: bwa
   owner: devteam
