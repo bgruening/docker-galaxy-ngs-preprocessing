@@ -93,9 +93,9 @@ tools:
 - name: suite_deeptools
   owner: bgruening
   tool_panel_section_label: 'deepTools'
-  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
-  - 63b709f941b6
+  - 4ba8ae21b7f7
 
 
 
