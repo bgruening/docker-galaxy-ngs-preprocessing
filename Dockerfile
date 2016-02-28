@@ -4,7 +4,7 @@ FROM bgruening/galaxy-stable:16.01
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
-ENV GALAXY_CONFIG_BRAND RNA-Seq
+ENV GALAXY_CONFIG_BRAND NGS-preprocessing
 
 #RUN add-tool-shed --url 'http://testtoolshed.g2.bx.psu.edu/' --name 'Test Tool Shed'
 
