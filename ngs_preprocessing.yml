@@ -41,7 +41,7 @@ galaxy_instance: http://localhost:8080
 tools:
 - name: bowtie2
   owner: devteam
-  tool_panel_section_label<: "Mapping"
+  tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - 019c2a81547a
