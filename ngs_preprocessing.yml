@@ -41,7 +41,7 @@ galaxy_instance: http://localhost:8080
 tools:
 - name: bowtie2
   owner: devteam
-  tool_panel_section_id: solexa_tools
+  tool_panel_section_label<: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - 019c2a81547a
@@ -62,7 +62,7 @@ tools:
 
 - name: bwa
   owner: devteam
-  tool_panel_section_id: solexa_tools
+  tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - ca29c55c78e7
@@ -97,7 +97,7 @@ tools:
 
 - name: suite_deeptools
   owner: bgruening
-  tool_panel_section_label: 'deepTools'
+  tool_panel_section_label: "deepTools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - 4ba8ae21b7f7
