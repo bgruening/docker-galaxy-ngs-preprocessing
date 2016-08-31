@@ -41,30 +41,33 @@ galaxy_instance: http://localhost:8080
 tools:
 - name: bowtie2
   owner: devteam
-  tool_panel_section_id: solexa_tools
+  tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - 019c2a81547a
   - 82414e16b6bd
   - 4f92dccc808a
   - 1fc845afa3ac
+  - a9d4f71dbfb0
 
 - name: fastqc
   owner: devteam
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
-  - 'e28c965eeed4'
-  - 'd2cf2c0c8a11'
-  - '2d094334f61e'
+  - e28c965eeed4
+  - d2cf2c0c8a11
+  - 2d094334f61e
+  - 3fdc1a74d866
 
 - name: bwa
   owner: devteam
-  tool_panel_section_id: solexa_tools
+  tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - ca29c55c78e7
   - 09a7281d24c5
+  - 546ada4a9f43
 
 - name: data_manager_bowtie2_index_builder
   owner: devteam
@@ -77,12 +80,14 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - 776bb1b478a0
+  - 86fa71e9b427
 
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
   - cb0147ade868
+  - e519769cdb9c
 
 - name: data_manager_bwa_index_builder
   owner: devteam
@@ -92,11 +97,7 @@ tools:
 
 - name: suite_deeptools
   owner: bgruening
-  tool_panel_section_label: 'deepTools'
+  tool_panel_section_label: "deepTools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
-  - 4ba8ae21b7f7
-
-
-
-
+  - 5693283f4de2
