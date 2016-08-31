@@ -100,5 +100,4 @@ tools:
   tool_panel_section_label: "deepTools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
-  - 4ba8ae21b7f7
   - 5693283f4de2
