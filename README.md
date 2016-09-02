@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/5466/bgruening/docker-galaxy-stable.svg)](https://zenodo.org/badge/latestdoi/5466/bgruening/docker-galaxy-stable)
-[![Build Status](https://travis-ci.org/bgruening/galaxy-metagenomics.svg?branch=master)](https://travis-ci.org/bgruening/galaxy-metagenomics)
+[![Build Status](https://travis-ci.org/bgruening/docker-galaxy-ngs-preprocessing.svg?branch=master)](https://travis-ci.org/bgruening/docker-galaxy-ngs-preprocessing)
 [![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-ngs-preprocessing/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-ngs-preprocessing)
 
 Galaxy Workbench for NGS-preprocessing
