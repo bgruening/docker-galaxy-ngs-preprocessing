@@ -14,7 +14,9 @@ At first you need to install docker. Please follow the instruction on https://do
 
 After the successful installation, all what you need to do is:
 
-``docker run -d -p 8080:80 quay.io/bgruening/galaxy-ngs-preprocessing``
+```
+docker run -d -p 8080:80 bgruening/galaxy-ngs-preprocessing
+```
 
 I will shortly explain the meaning of all the parameters. For a more detailed describtion please consult
 the [docker manual](http://docs.docker.io/), it's really worth reading.
@@ -36,7 +38,9 @@ Docker images are "read-only", all your changes inside one session will be lost 
 
 Fortunately, this is as easy as:
 
-``docker run -d -p 8080:80 -v /home/user/galaxy_storage/:/export/ quay.io/bgruening/galaxy-ngs-preprocessing``
+```
+docker run -d -p 8080:80 -v /home/user/galaxy_storage/:/export/ bgruening/galaxy-ngs-preprocessing
+```
 
 With the additional ``-v /home/user/galaxy_storage/:/export/`` parameter, docker will mount the folder ``/home/user/galaxy_storage`` into the Container under ``/export/``. A ``startup.sh`` script, that is usually starting Apache, PostgreSQL and Galaxy, will recognise the export directory with one of the following outcomes:
 
@@ -52,7 +56,9 @@ Enabling Interactive Environments in Galaxy
 Interactive Environments (IE) are sophisticated ways to extend Galaxy with powerful services, like IPython, in a secure and reproducible way.
 For this we need to be able to launch Docker containers inside our Galaxy Docker container. At least docker 1.3 is needed on the host system.
 
-``docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 --privileged=true -v /home/user/galaxy_storage/:/export/ quay.io/bgruening/galaxy-ngs-preprocessing``
+```
+docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 --privileged=true -v /home/user/galaxy_storage/:/export/ bgruening/galaxy-ngs-preprocessing
+```
 
 The port 8800 is the proxy port that is used to handle Interactive Environments. ``--privileged`` is needed to start docker containers inside docker.
 
@@ -62,7 +68,9 @@ On some linux distributions, Docker-In-Docker can run into issues (such as runni
 you can use a 'legacy' mode that use a docker socket for the parent docker installation mounted inside the container. To engage, set the 
 environmental variable DOCKER_PARENT
 
-``docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 --privileged=true -e DOCKER_PARENT=True -v /var/run/docker.sock:/var/run/docker.sock -v /home/user/galaxy_storage/:/export/ quay.io/bgruening/galaxy-ngs-preprocessing``
+```
+docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 --privileged=true -e DOCKER_PARENT=True -v /var/run/docker.sock:/var/run/docker.sock -v /home/user/galaxy_storage/:/export/ bgruening/galaxy-ngs-preprocessing
+```
 
 
 
