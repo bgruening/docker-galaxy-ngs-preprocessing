@@ -45,9 +45,6 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
   revisions:
-  - 019c2a81547a
-  - 82414e16b6bd
-  - 4f92dccc808a
   - 1fc845afa3ac
   - a9d4f71dbfb0
 
@@ -57,8 +54,6 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
   revisions:
-  - e28c965eeed4
-  - d2cf2c0c8a11
   - 2d094334f61e
   - 3fdc1a74d866
 
@@ -68,7 +63,6 @@ tools:
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
   revisions:
-  - ca29c55c78e7
   - 09a7281d24c5
   - 546ada4a9f43
 
