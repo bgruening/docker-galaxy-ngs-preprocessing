@@ -44,8 +44,8 @@ tools:
   tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
+  install_tool_dependencies: False
   revisions:
-  - 1fc845afa3ac
   - a9d4f71dbfb0
 
 - name: fastqc
@@ -53,8 +53,8 @@ tools:
   tool_panel_section_label: "Quality Control"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
+  install_tool_dependencies: False
   revisions:
-  - 2d094334f61e
   - 3fdc1a74d866
 
 - name: bwa
@@ -62,44 +62,39 @@ tools:
   tool_panel_section_label: "Mapping"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
+  install_tool_dependencies: False
   revisions:
-  - 09a7281d24c5
   - 546ada4a9f43
 
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  revisions:
-  - e87aeff2cf88
+  install_tool_dependencies: False
 
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  revisions:
-  - 776bb1b478a0
-  - 86fa71e9b427
+  install_tool_dependencies: False
 
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  revisions:
-  - cb0147ade868
-  - e519769cdb9c
+  install_tool_dependencies: False
 
 - name: data_manager_bwa_index_builder
   owner: devteam
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
-  revisions:
-  - cc5ae94acf01
+  install_tool_dependencies: False
 
 - name: suite_deeptools
   owner: bgruening
   tool_panel_section_label: "deepTools"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   install_resolver_dependencies: True
+  install_tool_dependencies: False
   revisions:
   - 5693283f4de2
