@@ -13,4 +13,5 @@ ENV GALAXY_CONFIG_CONDA_AUTO_INSTALL=True \
 
 # Install tools
 ADD ngs_preprocessing.yml $GALAXY_ROOT/tools.yaml
-RUN install-tools $GALAXY_ROOT/tools.yaml
+RUN install-tools $GALAXY_ROOT/tools.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs
