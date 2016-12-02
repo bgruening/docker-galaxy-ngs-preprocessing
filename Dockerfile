@@ -1,6 +1,6 @@
 # Galaxy - RNA-Seq
 
-FROM bgruening/galaxy-stable:16.07
+FROM bgruening/galaxy-stable:16.10
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
