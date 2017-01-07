@@ -1,6 +1,6 @@
 # Galaxy - RNA-Seq
 
-FROM bgruening/galaxy-stable:16.10
+FROM quay.io/bgruening/galaxy:jmc_conda
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
