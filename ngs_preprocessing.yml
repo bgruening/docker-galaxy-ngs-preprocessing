@@ -38,70 +38,34 @@
 
 api_key: admin
 galaxy_instance: http://localhost:8080
+install_resolver_dependencies: True
+install_tool_dependencies: False
 tools:
 - name: bowtie2
   owner: devteam
   tool_panel_section_label: "Mapping"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
-  revisions:
-  - a9d4f71dbfb0
 
 - name: fastqc
   owner: devteam
   tool_panel_section_label: "Quality Control"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
-  revisions:
-  - 3fdc1a74d866
 
 - name: bwa
   owner: devteam
   tool_panel_section_label: "Mapping"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
-  revisions:
-  - 546ada4a9f43
 
 - name: data_manager_bowtie2_index_builder
   owner: devteam
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
-
-- name: data_manager_bwa_index_builder
-  owner: devteam
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
 
 - name: suite_deeptools
   owner: bgruening
   tool_panel_section_label: "deepTools"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
-  revisions:
-  - 5693283f4de2
 
 - name: bedtools
   owner: iuc
   tool_panel_section_label: "BED Tools"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  install_resolver_dependencies: True
-  install_tool_dependencies: False
