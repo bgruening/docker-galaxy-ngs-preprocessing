@@ -62,10 +62,6 @@ tools:
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
 
-- name: suite_deeptools
-  owner: bgruening
-  tool_panel_section_label: "deepTools"
-
 - name: deeptools_bigwig_compare
   owner: bgruening
   tool_panel_section_label: "deepTools"
@@ -129,7 +125,3 @@ tools:
 - name: bedtools
   owner: iuc
   tool_panel_section_label: "BED Tools"
-
-
-
-
