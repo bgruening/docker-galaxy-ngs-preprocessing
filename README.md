@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/5466/bgruening/docker-galaxy-stable.svg)](https://zenodo.org/badge/latestdoi/5466/bgruening/docker-galaxy-stable)
+[![DOI](https://zenodo.org/badge/46994376.svg)](https://zenodo.org/badge/latestdoi/46994376)
 [![Build Status](https://travis-ci.org/bgruening/docker-galaxy-ngs-preprocessing.svg?branch=master)](https://travis-ci.org/bgruening/docker-galaxy-ngs-preprocessing)
 [![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-ngs-preprocessing/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-ngs-preprocessing)
 
