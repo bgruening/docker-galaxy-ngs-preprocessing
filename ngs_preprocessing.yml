@@ -49,6 +49,10 @@ tools:
   owner: devteam
   tool_panel_section_label: "Quality Control"
 
+- name: multiqc
+  owner: iuc
+  tool_panel_section_label: "Quality Control"
+
 - name: bwa
   owner: devteam
   tool_panel_section_label: "Mapping"
