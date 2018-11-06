@@ -1,4 +1,4 @@
-# Galaxy - RNA-Seq
+# Galaxy - NGS preprocessing
 
 FROM quay.io/bgruening/galaxy:dev
 
