@@ -1,6 +1,6 @@
-# Galaxy - RNA-Seq
+# Galaxy - NGS preprocessing
 
-FROM quay.io/bgruening/galaxy:18.05
+FROM quay.io/bgruening/galaxy:18.09
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
