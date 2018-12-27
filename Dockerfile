@@ -1,6 +1,6 @@
 # Galaxy - NGS preprocessing
 
-FROM quay.io/bgruening/galaxy:dev
+FROM quay.io/bgruening/galaxy:18.09
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
