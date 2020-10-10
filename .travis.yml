@@ -1,13 +1,13 @@
 sudo: required
 
 language: python
-python: 2.7
+python: 3.7
 
 services:
   - docker
 
 env:
-  - TOX_ENV=py27
+  - TOX_ENV=py37
 
 git:
   submodules: false
@@ -17,6 +17,7 @@ before_install:
   - make docker_install
   - travis_wait 45 make docker_build
   - make docker_run
+  - sleep 30
 
 install:
   - make install
@@ -25,4 +26,4 @@ script:
   - make test_api
   - make test_ftp
   - make test_bioblend
-  #- make test_docker_in_docker
+  - make test_docker_in_docker
