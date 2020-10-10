@@ -1,6 +1,6 @@
 # Galaxy - NGS preprocessing
 
-FROM bgruening/galaxy-stable:19.01
+FROM bgruening/galaxy-stable:20.09
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
