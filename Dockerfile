@@ -1,6 +1,6 @@
 # Galaxy - NGS preprocessing
 
-ARG BASE_IMAGE=quay.io/bgruening/galaxy:25.1.1
+ARG BASE_IMAGE=quay.io/bgruening/galaxy:26.0
 FROM ${BASE_IMAGE}
 
 LABEL maintainer="Björn A. Grüning <bjoern.gruening@gmail.com>"
